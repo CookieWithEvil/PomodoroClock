@@ -1,0 +1,73 @@
+body{
+   margin: 0;
+   font-family: Courier New;
+   background: Linen;
+   text-align: center;
+   color: Tomato;
+}
+h1{
+   margin: 20px auto 10px;
+   font-size: 235%;
+}
+#sheath{
+   display: inline-block;
+   margin: 10px 25%;
+   padding: 0;
+   min-height: 100px;
+   width: 50%;
+   border: 2px solid Tomato;
+   text-aligh: center;
+   outline: none;
+   background: none;
+}
+#stretch{
+   margin: 0;
+   height: 100px;
+   width: 0px;
+   background-color: Tomato;
+}
+#time-show{
+   top: 29%;
+   left: 45%;
+   font-size: 220%;
+   min-height: 40px;
+   text-align: center;
+   font-weight: bold;
+}
+#interface{
+   display: flex;
+   justify-content: center;
+   height: 200px;
+}
+/*BREAK INTERFACE*/
+#increace-decreace-s,
+#increace-decreace-b{
+   height: 150px;
+   width: 20%;
+   text-align: center;
+}
+#increace-decreace-s h3,
+#increace-decreace-b h3{
+   font-size: 150%;
+}
+#increace-decreace-s li,
+#increace-decreace-b li{   
+   display: inline-block;
+}
+#increace-decreace-s li button,
+#increace-decreace-b li button{
+   height: 35px;
+   width: 35px;
+   font-size: 150%;
+   border: 1px solid Tomato;
+   color: Tomato;
+   background: none;
+   outline: none;
+}
+#increace-decreace-s #dis-s,
+#increace-decreace-b #dis-b{
+   height: 35px;
+   min-width: 35px;
+   font-size: 185%;
+   font-weight: bold;
+}
